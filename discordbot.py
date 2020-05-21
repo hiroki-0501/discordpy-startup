@@ -22,5 +22,9 @@ async def ping(ctx):
 async def neko(ctx):
     await ctx.send('にゃーん')
     
+@bot.command()
+async def dice(ctx):
+    await ctx.send('1or2or3')
+    
     
 bot.run(token)
